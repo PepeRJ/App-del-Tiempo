@@ -1,0 +1,28 @@
+
+<div class="container">
+  <div class="container__search-section">
+    <mat-form-field>
+      <mat-label><mat-icon>wb_sunny</mat-icon>Buscar clima en...</mat-label>
+      <input matInput type="text" [(ngModel)]="city">
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="searchCity()">Buscar</button>
+  </div>
+
+  <div class="container__map" [ngStyle]="{'justify-content': showCityList ? 'flex-start' : 'center'}">
+    @if (showCityList) {
+      <div [@fadeInOut] class="fade-element">
+        <app-list-cities [citiesList$]="citiesList$" (selectCityEvent)="selectCity($event)"></app-list-cities>
+      </div>
+    }
+    
+    @if (!showCityList) {
+      <div [@fadeInOut] class="fade-element">
+       
+          <app-weather [selectedCity]="selectedCity"></app-weather>
+        
+      </div>
+    }
+  </div>
+</div> 
+
+ 

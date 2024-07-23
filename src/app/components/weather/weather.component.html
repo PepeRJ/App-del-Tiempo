@@ -1,0 +1,63 @@
+
+
+        @if (selectedCity) {
+          @if (weatherData$ | async; as  weatherData) {
+      
+            <div class="container">
+      
+              <div class="card-1" [ngStyle]="{'background-image': 'url(/assets/images/'+weatherData.weather[0].icon+'.png)', 'background-repeat' : 'no-repeat', 'background-size' : 'cover'}">
+      
+                      <h4>Hoy</h4>
+                      <div class="card-1__content">
+                      <h2>{{ weatherData.main.temp | number: '2.0-0' }}&deg;C</h2>
+      
+                    
+                    <div class="card-1__icon">
+                      <img [src]="'https://openweathermap.org/img/w/'+weatherData.weather[0].icon+'.png'" alt="">
+                     </div>
+                     
+                     <h6>{{weatherData.main.temp_min | number: '2.0-0' }}&deg;C | {{weatherData.main.temp_max | number: '2.0-0' }}&deg;C</h6>
+           </div>
+            </div>
+   
+              <div class="data">
+                <div class="data__title">
+                <h1>{{selectedCity.name }}</h1>
+                <p>{{currentDate | date: 'dd-MM-YYYY'}}</p>
+              </div>
+              
+              <div class="card-2">
+              
+              <div class="card-2__column">
+              <div>
+              <mat-icon>water_drop </mat-icon>
+              <p>{{ weatherData.main.humidity }}%</p>
+              </div>
+              <div>
+              <mat-icon>speed</mat-icon>
+             <p>{{ weatherData.main.pressure}} hPa</p> 
+              </div>
+              </div>
+              
+              <div class="card-2__column">
+              <div>
+              <mat-icon>air</mat-icon>
+              <p>{{ weatherData.wind.speed | kmh }} km/h</p>
+              </div>
+              <div>
+              <mat-icon>info</mat-icon>
+              <p>{{ weatherData.weather[0].description }}</p>
+              </div>
+              </div>
+              
+              </div>
+              </div>
+              
+       
+      
+              </div>
+          }
+        } 
+
+
+        

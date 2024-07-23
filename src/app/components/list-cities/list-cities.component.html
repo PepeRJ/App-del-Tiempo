@@ -1,0 +1,25 @@
+@if(citiesList$ | async; as citiesList) {
+   
+    <mat-selection-list class="list" #cities [multiple]="false">
+        <!-- **LO HAGO CON EL NGFOR, PORQUE AL NO TENER ID UNICA, ME DA FALLOS EL @FOR -->
+    <!-- @for (city of citiesList; track city.name){ -->
+
+
+ @if (citiesList.length=== 0) {
+    
+
+    <li>Ciudad no encontrada</li>
+      
+} @else {
+        <li>Seleccione la ciudad</li>
+           
+}
+
+    <mat-list-option [value]="city" *ngFor="let city of citiesList" (click)="selectCityEvent.emit(city)">
+   {{ city.name}}, {{ city.country}} 
+   </mat-list-option>
+    <!-- } -->
+    </mat-selection-list>
+    }
+   
+

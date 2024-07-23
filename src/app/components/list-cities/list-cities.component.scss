@@ -1,0 +1,22 @@
+
+p{
+    text-align: center;
+    color: white;
+}
+
+li{
+    color: white;
+    padding: 1rem;
+}
+.list{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    background-color: rgba(26, 21, 21, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}

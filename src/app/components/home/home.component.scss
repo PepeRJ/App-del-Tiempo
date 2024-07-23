@@ -1,0 +1,68 @@
+
+mat-icon {
+    margin-right: 0.5rem;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 100vh;
+    width: 90%;
+   
+
+    &__search-section {
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        gap: 0.1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__map {
+        background-image: url('../../../assets/images/mapa.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 25px;
+        width: 100%;
+        min-height: calc(100vh - 155px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+.fade-element {
+    width: 100%; 
+    opacity: 1;
+  }
+
+
+
+@media only screen and (max-width: 750px) {
+    .container{
+        padding-bottom: 0.6rem;
+
+        &__search-section{
+            flex-direction: column;
+            gap: 0.1rem;
+            margin-top: 3rem;
+            margin-bottom: 1.5rem;
+        }
+    }
+}
+@media only screen and (max-width: 450px) {
+
+    .container .container__map {
+        width: 100%;
+    }
+
+
+}
+
