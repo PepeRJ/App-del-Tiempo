@@ -1,8 +1,8 @@
-# Weather App 🌦️
+# App del Tiempo 🌦️
 
 **Descripción:**
 
-Esta aplicación web, desarrollada como una Single Page Application (SPA) en Angular, permite a los usuarios consultar el clima de diferentes localidades de manera eficiente. Emplea la API de OpenWeather para realizar consultas HTTP y obtener:
+Esta aplicación web, desarrollada como una Single Page Application (SPA) en Angular18, permite a los usuarios consultar el clima de diferentes localidades de manera eficiente. Emplea la API de OpenWeather para realizar consultas HTTP y obtener:
 
 - Una lista de ciudades que coinciden con el término de búsqueda proporcionado.
 - Información detallada en formato JSON sobre una ciudad seleccionada.
@@ -17,7 +17,7 @@ El uso de SPA optimiza la interactividad y velocidad de la aplicación, eliminan
 
 ## Prueba la Aplicación
 
-Puedes probar la aplicación en el siguiente enlace: [Weather App Demo](https://incredible-elf-538705.netlify.app/)
+Puedes probar la aplicación en el siguiente enlace: [App del Tiempo](https://incredible-elf-538705.netlify.app/)
 
 ## Requisitos
 
@@ -33,7 +33,7 @@ Puedes probar la aplicación en el siguiente enlace: [Weather App Demo](https://
     cd nombre-del-repositorio
     ```
 
-2. **Instala las dependencias para el frontend y el backend:**
+2. **Instala las dependencias:**
 
     ```bash
     npm install
@@ -41,37 +41,16 @@ Puedes probar la aplicación en el siguiente enlace: [Weather App Demo](https://
 
 ## Uso
 
-### Backend
-
-1. Navega al directorio del backend si está separado, por ejemplo:
-
-    ```bash
-    cd backend
-    ```
-
-2. Inicia el servidor Node.js:
-
-    ```bash
-    node server.js
-    ```
-
-### Frontend
-
-1. Navega al directorio del frontend si está separado, por ejemplo:
-
-    ```bash
-    cd frontend
-    ```
-
-2. Ejecuta la aplicación Angular:
+1. Ejecuta la aplicación Angular:
 
     ```bash
     ng serve -o
     ```
 
-    Esto abrirá la aplicación en `http://localhost:4200/`.
+   Esto abrirá la aplicación en `http://localhost:4200/`.
 
 ## Contacto
 
 Para más información o dudas, puedes contactarme en [peperj7@gmail.com](mailto:peperj7@gmail.com).
+
 
