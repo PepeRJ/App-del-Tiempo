@@ -15,6 +15,10 @@ El uso de SPA optimiza la interactividad y velocidad de la aplicación, eliminan
 - Visualización de información detallada del clima de la ciudad seleccionada.
 - Experiencia de usuario fluida con actualización sin recargas completas de la página.
 
+## Prueba la Aplicación
+
+Puedes probar la aplicación en el siguiente enlace: [Weather App Demo](https://incredible-elf-538705.netlify.app/)
+
 ## Requisitos
 
 - Node.js
@@ -24,39 +28,50 @@ El uso de SPA optimiza la interactividad y velocidad de la aplicación, eliminan
 
 1. **Clona este repositorio:**
 
-   ```bash
-   git clone https://github.com/tu-usuario/nombre-del-repositorio.git
-   cd nombre-del-repositorio
+    ```bash
+    git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+    cd nombre-del-repositorio
+    ```
+
 2. **Instala las dependencias para el frontend y el backend:**
 
-```bash
-npm install
+    ```bash
+    npm install
+    ```
 
 ## Uso
 
-Backend
-Navega al directorio del backend si está separado, por ejemplo:
+### Backend
 
-```bash
+1. Navega al directorio del backend si está separado, por ejemplo:
 
-cd backend
-Inicia el servidor Node.js:
+    ```bash
+    cd backend
+    ```
 
-```bash
+2. Inicia el servidor Node.js:
 
-node server.js
-Frontend
-Navega al directorio del frontend si está separado, por ejemplo:
+    ```bash
+    node server.js
+    ```
 
-```bash
+### Frontend
 
-cd frontend
-Ejecuta la aplicación Angular:
+1. Navega al directorio del frontend si está separado, por ejemplo:
 
-```bash
+    ```bash
+    cd frontend
+    ```
 
-ng serve -o
-Esto abrirá la aplicación en http://localhost:4200/.
+2. Ejecuta la aplicación Angular:
+
+    ```bash
+    ng serve -o
+    ```
+
+    Esto abrirá la aplicación en `http://localhost:4200/`.
 
 ## Contacto
-Para más información o dudas, puedes contactarme en peperj7@gmail.com
+
+Para más información o dudas, puedes contactarme en [peperj7@gmail.com](mailto:peperj7@gmail.com).
+
