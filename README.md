@@ -27,36 +27,36 @@ El uso de SPA optimiza la interactividad y velocidad de la aplicación, eliminan
    ```bash
    git clone https://github.com/tu-usuario/nombre-del-repositorio.git
    cd nombre-del-repositorio
-Instala las dependencias para el frontend y el backend:
+2. **Instala las dependencias para el frontend y el backend:**
 
-bash
-
+```bash
 npm install
-Uso
+
+## Uso
+
 Backend
 Navega al directorio del backend si está separado, por ejemplo:
 
-bash
+```bash
 
 cd backend
 Inicia el servidor Node.js:
 
-bash
+```bash
 
 node server.js
 Frontend
 Navega al directorio del frontend si está separado, por ejemplo:
 
-bash
+```bash
 
 cd frontend
 Ejecuta la aplicación Angular:
 
-bash
+```bash
 
 ng serve -o
 Esto abrirá la aplicación en http://localhost:4200/.
 
-
-Contacto
+## Contacto
 Para más información o dudas, puedes contactarme en peperj7@gmail.com
