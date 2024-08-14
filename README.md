@@ -1,28 +1,62 @@
-# AppTiempo
+# Weather App 🌦️
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
+**Descripción:**
 
-## Development server
+Esta aplicación web, desarrollada como una Single Page Application (SPA) en Angular, permite a los usuarios consultar el clima de diferentes localidades de manera eficiente. Emplea la API de OpenWeather para realizar consultas HTTP y obtener:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Una lista de ciudades que coinciden con el término de búsqueda proporcionado.
+- Información detallada en formato JSON sobre una ciudad seleccionada.
 
-## Code scaffolding
+El uso de SPA optimiza la interactividad y velocidad de la aplicación, eliminando la necesidad de recargar la página completa y ofreciendo una experiencia de usuario más fluida. Este proyecto no solo facilita el acceso rápido a datos meteorológicos, sino que también sirve como excelente práctica para el manejo y consumo de solicitudes HTTP en Angular.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Características
 
-## Build
+- Búsqueda de localidades para obtener condiciones meteorológicas.
+- Visualización de información detallada del clima de la ciudad seleccionada.
+- Experiencia de usuario fluida con actualización sin recargas completas de la página.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Requisitos
 
-## Running unit tests
+- Node.js
+- Angular CLI
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Instalación
 
-## Running end-to-end tests
+1. **Clona este repositorio:**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   ```bash
+   git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+   cd nombre-del-repositorio
+Instala las dependencias para el frontend y el backend:
 
-## Further help
+bash
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-# App-del-Tiempo
+npm install
+Uso
+Backend
+Navega al directorio del backend si está separado, por ejemplo:
+
+bash
+
+cd backend
+Inicia el servidor Node.js:
+
+bash
+
+node server.js
+Frontend
+Navega al directorio del frontend si está separado, por ejemplo:
+
+bash
+
+cd frontend
+Ejecuta la aplicación Angular:
+
+bash
+
+ng serve -o
+Esto abrirá la aplicación en http://localhost:4200/.
+
+
+Contacto
+Para más información o dudas, puedes contactarme en peperj7@gmail.com
